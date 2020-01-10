@@ -1,0 +1,24 @@
+{
+  "name": "lesson-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "vue": "^1.0.28"
+  },
+  "devDependencies": {
+    "gulp": "^2.7.0",
+    "node-sass": "^4.13.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"scss": "node-sass --output-style compressed -o dist/css src/scss",
+	"build": "webpack --output dist/bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
